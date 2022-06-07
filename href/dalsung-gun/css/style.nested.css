@@ -384,195 +384,196 @@ button {
                   height: 3px;
                   background: #242424; }
 
-.mainbanner {
-  width: 100%;
-  height: 460px;
-  position: relative; }
-  .mainbanner .slider-container {
+main {
+  overflow: hidden; }
+  main .mainbanner {
     width: 100%;
-    height: 100%; }
-    .mainbanner .slider-container .visualList {
+    height: 460px;
+    position: relative; }
+    main .mainbanner .slider-container {
       width: 100%;
-      height: 100%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      z-index: -1; }
-      .mainbanner .slider-container .visualList .visual01 {
-        background-image: url("../img/main/main-b01.jpg"); }
-      .mainbanner .slider-container .visualList .visual02 {
-        background-image: url("../img/main/main-b02.jpg"); }
-      .mainbanner .slider-container .visualList .visual03 {
-        background-image: url("../img/main/main-b03.jpg"); }
-      .mainbanner .slider-container .visualList .visual04 {
-        background-image: url("../img/main/main-b04.jpg"); }
-  .mainbanner .swiper-button-next:after, .mainbanner .swiper-button-prev:after {
-    content: ''; }
-  .mainbanner .swiper-button-next {
-    margin-right: 150px; }
-    .mainbanner .swiper-button-next img {
-      transform: rotate(180deg); }
-  .mainbanner .swiper-button-prev {
-    margin-left: 150px; }
-  .mainbanner .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
-    bottom: 45%;
-    left: -30%; }
-  .mainbanner .swiper-pagination-bullet {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    border: 1px solid #fff;
-    color: #fff; }
-  .mainbanner .swiper-pagination-bullet-active {
-    background-color: transparent; }
-  .mainbanner .inner-banner {
-    position: absolute;
-    width: 100%;
-    height: 90px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-image: url("../img/main/ds_people_bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 9; }
-    .mainbanner .inner-banner .inner-img {
-      position: absolute;
-      bottom: 0;
-      left: 500px;
-      width: 244px;
-      height: 135px;
-      background-image: url("../img/main/ds_people.png");
-      background-repeat: no-repeat; }
-
-.container {
-  width: 100%;
-  height: auto; }
-  .container .inner-content {
-    width: 1260px;
-    height: 310px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-left: 1px solid #e2e2e2;
-    border-right: 1px solid #e2e2e2; }
-    .container .inner-content .board {
-      width: 50%;
       height: 100%; }
-    .container .inner-content .intro-gunsu {
-      width: 25%;
-      height: 100%;
-      position: relative;
-      border-left: 1px solid #e2e2e2;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column; }
-      .container .inner-content .intro-gunsu h3 {
-        margin-top: 30px; }
-      .container .inner-content .intro-gunsu a {
+      main .mainbanner .slider-container .visualList {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1; }
+        main .mainbanner .slider-container .visualList .visual01 {
+          background-image: url("../img/main/main-b01.jpg"); }
+        main .mainbanner .slider-container .visualList .visual02 {
+          background-image: url("../img/main/main-b02.jpg"); }
+        main .mainbanner .slider-container .visualList .visual03 {
+          background-image: url("../img/main/main-b03.jpg"); }
+        main .mainbanner .slider-container .visualList .visual04 {
+          background-image: url("../img/main/main-b04.jpg"); }
+    main .mainbanner .swiper-button-next:after, main .mainbanner .swiper-button-prev:after {
+      content: ''; }
+    main .mainbanner .swiper-button-next {
+      margin-right: 150px; }
+      main .mainbanner .swiper-button-next img {
+        transform: rotate(180deg); }
+    main .mainbanner .swiper-button-prev {
+      margin-left: 150px; }
+    main .mainbanner .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+      bottom: 45%;
+      left: -30%; }
+    main .mainbanner .swiper-pagination-bullet {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      border: 1px solid #fff;
+      color: #fff; }
+    main .mainbanner .swiper-pagination-bullet-active {
+      background-color: transparent; }
+    main .mainbanner .inner-banner {
+      position: absolute;
+      width: 100%;
+      height: 90px;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-image: url("../img/main/ds_people_bg.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      z-index: 9; }
+      main .mainbanner .inner-banner .inner-img {
         position: absolute;
-        width: 160px;
-        height: 40px;
-        line-height: 40px;
-        text-align: center;
-        border-radius: 40px;
-        bottom: 30px;
-        left: calc( 50% - 80px);
-        background: #fff; }
-    .container .inner-content .mini-banner {
-      width: 25%;
-      height: 100%;
+        bottom: 0;
+        left: 500px;
+        width: 244px;
+        height: 135px;
+        background-image: url("../img/main/ds_people.png");
+        background-repeat: no-repeat; }
+  main .container {
+    width: 100%;
+    height: auto; }
+    main .container .inner-content {
+      width: 1260px;
+      height: 310px;
+      margin: 0 auto;
       display: flex;
       justify-content: center;
       align-items: center;
-      border-left: 1px solid #e2e2e2; }
-      .container .inner-content .mini-banner .mb-list {
-        width: 264px;
-        height: 237px; }
-        .container .inner-content .mini-banner .mb-list .inner-a, .container .inner-content .mini-banner .mb-list .inner-b {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-grow: 0;
-          width: 100%;
-          height: 50%; }
-          .container .inner-content .mini-banner .mb-list .inner-a .list, .container .inner-content .mini-banner .mb-list .inner-b .list {
-            width: 50%;
-            height: 100%; }
-        .container .inner-content .mini-banner .mb-list .inner-a .list:first-child {
-          color: #fff;
-          background: #1d74c5; }
-          .container .inner-content .mini-banner .mb-list .inner-a .list:first-child p {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column; }
-          .container .inner-content .mini-banner .mb-list .inner-a .list:first-child p:before {
-            display: block;
-            content: '';
-            width: 56px;
-            height: 56px;
-            background: url("../img/content/ico_buso.png") no-repeat;
-            margin: 0px auto 10px;
-            transition: 0.3s; }
-          .container .inner-content .mini-banner .mb-list .inner-a .list:first-child:hover p:before {
-            transform: rotateY(180deg); }
-        .container .inner-content .mini-banner .mb-list .inner-a .list:last-child {
-          color: #333;
+      border-left: 1px solid #e2e2e2;
+      border-right: 1px solid #e2e2e2; }
+      main .container .inner-content .board {
+        width: 50%;
+        height: 100%; }
+      main .container .inner-content .intro-gunsu {
+        width: 25%;
+        height: 100%;
+        position: relative;
+        border-left: 1px solid #e2e2e2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; }
+        main .container .inner-content .intro-gunsu h3 {
+          margin-top: 30px; }
+        main .container .inner-content .intro-gunsu a {
+          position: absolute;
+          width: 160px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          border-radius: 40px;
+          bottom: 30px;
+          left: calc( 50% - 80px);
           background: #fff; }
-          .container .inner-content .mini-banner .mb-list .inner-a .list:last-child p {
+      main .container .inner-content .mini-banner {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px solid #e2e2e2; }
+        main .container .inner-content .mini-banner .mb-list {
+          width: 264px;
+          height: 237px; }
+          main .container .inner-content .mini-banner .mb-list .inner-a, main .container .inner-content .mini-banner .mb-list .inner-b {
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: column; }
-          .container .inner-content .mini-banner .mb-list .inner-a .list:last-child p:before {
-            display: block;
-            content: '';
-            width: 56px;
-            height: 56px;
-            background: url("../img/content/ico_buso.png") no-repeat;
-            margin: 0px auto 10px;
-            background-position: -56px 0;
-            transition: 0.3s; }
-          .container .inner-content .mini-banner .mb-list .inner-a .list:last-child:hover p:before {
-            transform: rotateY(180deg); }
-        .container .inner-content .mini-banner .mb-list .inner-b .list:first-child {
-          color: #333;
-          background: #e6e6e1; }
-          .container .inner-content .mini-banner .mb-list .inner-b .list:first-child p {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column; }
-          .container .inner-content .mini-banner .mb-list .inner-b .list:first-child p:before {
-            display: block;
-            content: '';
-            width: 56px;
-            height: 56px;
-            background: url("../img/content/ico_buso.png") no-repeat;
-            margin: 0px auto 10px;
-            background-position: -112px 0;
-            transition: 0.3s; }
-          .container .inner-content .mini-banner .mb-list .inner-b .list:first-child:hover p:before {
-            transform: rotateY(180deg); }
-        .container .inner-content .mini-banner .mb-list .inner-b .list:last-child {
-          color: #fff;
-          background: #5e90a8; }
-          .container .inner-content .mini-banner .mb-list .inner-b .list:last-child p {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column; }
-          .container .inner-content .mini-banner .mb-list .inner-b .list:last-child p:before {
-            display: block;
-            content: '';
-            width: 56px;
-            height: 56px;
-            background: url("../img/content/ico_buso.png") no-repeat;
-            margin: 0px auto 10px;
-            background-position: -168px 0;
-            transition: 0.3s; }
-          .container .inner-content .mini-banner .mb-list .inner-b .list:last-child:hover p:before {
-            transform: rotateY(180deg); }
+            flex-grow: 0;
+            width: 100%;
+            height: 50%; }
+            main .container .inner-content .mini-banner .mb-list .inner-a .list, main .container .inner-content .mini-banner .mb-list .inner-b .list {
+              width: 50%;
+              height: 100%; }
+          main .container .inner-content .mini-banner .mb-list .inner-a .list:first-child {
+            color: #fff;
+            background: #1d74c5; }
+            main .container .inner-content .mini-banner .mb-list .inner-a .list:first-child p {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column; }
+            main .container .inner-content .mini-banner .mb-list .inner-a .list:first-child p:before {
+              display: block;
+              content: '';
+              width: 56px;
+              height: 56px;
+              background: url("../img/content/ico_buso.png") no-repeat;
+              margin: 0px auto 10px;
+              transition: 0.3s; }
+            main .container .inner-content .mini-banner .mb-list .inner-a .list:first-child:hover p:before {
+              transform: rotateY(180deg); }
+          main .container .inner-content .mini-banner .mb-list .inner-a .list:last-child {
+            color: #333;
+            background: #fff; }
+            main .container .inner-content .mini-banner .mb-list .inner-a .list:last-child p {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column; }
+            main .container .inner-content .mini-banner .mb-list .inner-a .list:last-child p:before {
+              display: block;
+              content: '';
+              width: 56px;
+              height: 56px;
+              background: url("../img/content/ico_buso.png") no-repeat;
+              margin: 0px auto 10px;
+              background-position: -56px 0;
+              transition: 0.3s; }
+            main .container .inner-content .mini-banner .mb-list .inner-a .list:last-child:hover p:before {
+              transform: rotateY(180deg); }
+          main .container .inner-content .mini-banner .mb-list .inner-b .list:first-child {
+            color: #333;
+            background: #e6e6e1; }
+            main .container .inner-content .mini-banner .mb-list .inner-b .list:first-child p {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column; }
+            main .container .inner-content .mini-banner .mb-list .inner-b .list:first-child p:before {
+              display: block;
+              content: '';
+              width: 56px;
+              height: 56px;
+              background: url("../img/content/ico_buso.png") no-repeat;
+              margin: 0px auto 10px;
+              background-position: -112px 0;
+              transition: 0.3s; }
+            main .container .inner-content .mini-banner .mb-list .inner-b .list:first-child:hover p:before {
+              transform: rotateY(180deg); }
+          main .container .inner-content .mini-banner .mb-list .inner-b .list:last-child {
+            color: #fff;
+            background: #5e90a8; }
+            main .container .inner-content .mini-banner .mb-list .inner-b .list:last-child p {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column; }
+            main .container .inner-content .mini-banner .mb-list .inner-b .list:last-child p:before {
+              display: block;
+              content: '';
+              width: 56px;
+              height: 56px;
+              background: url("../img/content/ico_buso.png") no-repeat;
+              margin: 0px auto 10px;
+              background-position: -168px 0;
+              transition: 0.3s; }
+            main .container .inner-content .mini-banner .mb-list .inner-b .list:last-child:hover p:before {
+              transform: rotateY(180deg); }
