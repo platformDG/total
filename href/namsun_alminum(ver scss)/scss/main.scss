@@ -1,0 +1,50 @@
+//메인페이지
+.mainbanner {
+  width: $siteWidth;
+  height: 550px;
+  .slider-container{
+    width: $siteWidth;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+    .visualList{
+      display: flex;
+      flex-wrap: nowrap;
+      width: calc( #{$siteWidth * 6} );
+      li{
+        width: $siteWidth;
+        height: 550px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        &.visual01 {
+          background-image: url('../img/main/mainVisual01.jpg');
+        }
+        &.visual02 {
+          background-image: url('../img/main/mainVisual02.jpg');
+        }
+        &.visual03 {
+          background-image: url('../img/main/mainVisual03.jpg');
+        }
+        &.visual04 {
+          background-image: url('../img/main/mainVisual04.jpg');
+        }
+      }
+    }
+  }
+}
+
+.inner {
+  &:nth-child(1){
+    margin-top: 50px;
+  }
+  .box {
+    &.item_2{
+      .items{
+        p + a{
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+}

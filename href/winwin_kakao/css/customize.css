@@ -1,0 +1,286 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+ul, li { list-style: none; }
+a{ color: #242424; }
+body, html {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap{
+  position: relative;
+}
+
+#header{
+  height: 60px;
+}
+nav a {
+  color: #242424;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+nav .nav-link:hover {
+  text-decoration: underline;
+}
+/* main */
+#main {
+  width: 100vw;
+}
+.w-100 {
+  width: 100vw!important;
+  height: calc( 100vh - 133px);
+}
+.carousel-item{
+  position: relative;
+  width: 100vw;
+  height: 100%;
+}
+.carousel-item.active{
+  width: 100vw;
+  height: 100%;
+}
+.carousel-caption{
+  bottom: 50%;
+}
+.carousel-caption.car-img{
+  width: 800px;
+  bottom: 30%;
+  margin: 0 auto;
+}
+.carousel-indicators{
+  bottom: 16%;
+}
+.carousel-control-prev{
+  left: 300px;
+}
+.carousel-control-next{
+  right: 300px;
+}
+
+.btn-g{
+  position: absolute;
+  /* background: red; */
+  width: 630px;
+  height: 130px;
+  left: calc( 50% - 315px );
+  bottom: 93px;
+}
+.bi{
+font-size: 32px;
+}
+.btn{
+  border-radius: 0;
+}
+.btn-custom:last-child{
+  margin-right: 0;
+}
+.btn-g .btn-custom{
+  width: 150px;
+  height: 130px;
+  background-color: #ffcd00;
+  margin-right: 10px;
+}
+
+.btn-custom:hover{
+  background-color: #ffbb00;
+}
+.vedio-img{
+  width: 720px;
+  height: 405px;
+}
+.icon {
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 32px);
+  font-size: 64px;
+  color: yellow;
+}
+.info_txt {
+  position: absolute;
+  right: 500px;
+  color: #fff;
+  top:200px;
+  font-size: 13px;
+}
+.tit_info {
+  font-size: 24px;
+  color: #ffcd00;
+  line-height: 32px;
+  font-weight: normal;
+  /* margin-bottom: 50px; */
+}
+
+/* 푸터 */
+#footer {
+  width: 100vw;
+  height: 73px;
+  padding-top: 10px;
+  background: #fff;
+}
+#footer .inner-footer p{
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.inner-footer{
+  padding-top: 0 10px;
+}
+.inner-footer a{
+  color: black;
+}
+.btn-site {
+  font-size: 11px;
+  color: black;
+}
+.dropup {
+  z-index: 800;
+}
+/* introduce */
+ .custom-con {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container .row .col-3 h4 {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.container .row .col-3 P {
+    font-weight: normal;
+    font-size: 13px;
+    display: block;
+    position: relative;
+    margin-top: 50px;
+    line-height: 20px;
+    letter-spacing: -1px;
+}
+.container .row .col-11 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.container .row .col-11 h5 {
+  font-size: 18px;
+}
+.container .row .col-10 h5 {
+  font-size: 16px;
+  text-align: center;
+}
+
+.container .row .col-11 p {
+  font-size: 13px;
+}
+
+.introduce.w-50 {
+  background: #242424;
+  height: 1px;
+  width: 50px !important;
+  margin-top:30px;
+}
+
+.introduce.w-100{
+  height: 1px;
+  background: #eaeaea;
+  width: 80% !important;
+  float: right;
+}
+
+.img01{
+  width: 100%;
+  height: 350px;
+  background-image: url('../img/main/img-01.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.img02{
+  width: 100%;
+  height: 350px;;
+  background-image: url('../img/main/img-02.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bi-check-circle-fill{
+  font-size: 16px;
+  color: #ffcd00;
+}
+
+.bi-quote{
+  color:#ffcd00;
+}
+.bi.bi-quote.trans:before{
+  transform: rotate(180deg);
+}
+.list-gbn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.list-gbn li {
+  width: 175px;
+  height: 106px;
+  border-right: 1px solid #e6e6e6;
+  font-size: 13px;
+  text-align: center;
+  padding: 2%;
+}
+.list-gbn li:hover {
+  background-color: #faf6e9;
+}
+.list-gbn li:last-child{
+  border-right: 0;
+}
+.list-gbn li a {
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+}
+.list-gbn li a:hover {
+  color: #242424;
+  text-decoration: none;
+}
+.list-gbn i {
+  display: block;
+}
+.btn-custom{
+  font-size: 13px;
+  color: black;
+  border-color: black;
+  width: 100px;
+  height: 30px;
+  line-height: 15px;
+}
+
+.btn.btn-custom:hover{
+  color: white;
+  border-color: #ffcd00;
+}
+.box {
+  position: relative;
+  width: 100%;
+  border: 1px dashed #e6e6e6;
+  padding: 10px;
+}
+.box span {
+  font-size: 13px;
+}
+.btn.btn-custom2{
+  position: absolute;
+  width: 120px;
+  top: 20px;
+  right: 20px;
+}
+.p4 {
+  margin-top: 20px;
+}
+.p4 p {
+  font-size: 12px;
+}
+/* #footer.notMfooter{
+  position: relative;
+} */
